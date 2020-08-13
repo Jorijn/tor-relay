@@ -1,0 +1,13 @@
+# Port number
+ORPort 9001
+
+# Contact information
+Nickname hacktheplanet
+ContactInfo Mijndert Stuij <mijndert+tor@mijndertstuij.nl>
+
+# Do not exit 
+ExitPolicy reject *:*
+
+# Bandwidth control
+AccountingMax 400 GBytes
+AccountingStart month 1 00:00
