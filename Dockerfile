@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk update \
-    && apk add --no-cache   -X http://dl-cdn.alpinelinux.org/alpine/edge/community tor \
+    && apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/community tor \
     && rm -rf /var/cache/apk/*
 
 EXPOSE 9001
